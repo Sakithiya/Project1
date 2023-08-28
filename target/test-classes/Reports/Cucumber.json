@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-24T07:37:09.660Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5351188300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Validate the login details",
+        "description": "",
+        "id": "validation-of-facebook-details;validate-the-login-details",
+        "after": [
+          {
+            "result": {
+              "duration": 343935800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1325400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on facebook page",
+            "match": {
+              "location": "StepDefinition.user_is_on_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 590283200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters userName and pwd",
+            "match": {
+              "location": "StepDefinition.user_enters_userName_and_pwd()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155241900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "StepDefinition.user_clicks_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Validation of facebook details",
+    "description": "",
+    "id": "validation-of-facebook-details",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/Admin/Desktop/Project1/src/test/resources/Login.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  }
+]
